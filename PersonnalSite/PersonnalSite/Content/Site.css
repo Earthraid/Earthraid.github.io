@@ -1,0 +1,81 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pool {
+}
+.jumbotron{
+  
+    background: url(DeadPool.jpeg) right;
+    background-size: 45%;
+    background-repeat:no-repeat;
+    background-color:white;
+    margin-top:3%;
+
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.title{
+    display:inline-block;
+    margin-top:2%;
+    margin-bottom:2%;
+    font-weight:bold;
+}
+.date{
+    display:inline-block;
+    float:right;
+}
+.bullet{
+    text-align:left;
+}
+.top{
+    text-align:center;
+    margin-bottom:3%;
+    margin-top: 3%;
+}
+hr{
+    border-color:blue;
+    border-width:2px;
+}
+.about {
+    padding-top:2%;
+}
+.email{
+    color:blue;
+}
+.links{
+    display: inline-block;
+    color:blue;
+    padding-right:1%;
+}
+.login_bar{
+    padding-bottom:2%;
+}
+
+.confirm_image{
+    margin:auto;
+}
+.email{
+    padding-top:1%;
+    color:black;
+}

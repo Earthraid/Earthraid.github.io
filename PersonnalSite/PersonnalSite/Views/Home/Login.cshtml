@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+@using Validation.Web.Models;
+@model LoginViewModel
+<h2 class="top">@ViewBag.Title</h2>
+
+<hr />
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <div class="email">
+        @Html.LabelFor(m => m.Email)
+        <div class="login_bar">@Html.EditorFor(m => m.Email)</div>
+        @Html.ValidationMessageFor(m => m.Email)
+    </div>
+    <div class="password">
+        @Html.LabelFor(m => m.Password)
+        <div class="login_bar">@Html.PasswordFor(m => m.Password)</div>
+        @Html.ValidationMessageFor(m => m.Password)
+    </div>
+    <button class="formSubmitButton">LOGIN</button>
+}
