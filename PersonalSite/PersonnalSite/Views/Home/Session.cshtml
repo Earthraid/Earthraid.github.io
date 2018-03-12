@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Session Started";
+}
+@using PersonnalSite.Models
+@model SessionModel
+
+<h2 class="top">@ViewBag.Title</h2>
+
+<hr />
+<h1>This is where your session journey begins.</h1>
+
+<p>If you so choose, you could type a number into the bar below and hit the submit button.  Your session started upon entering this page and will follow you throughout your trip on this site until you close out or time out.<br /><br /></p>
+
+@using (Html.BeginForm("SessionXP", "Home", FormMethod.Post))
+{
+    <div class="countName">@Html.Label("Count", "Count ")</div>
+    <div class="countBar">@Html.TextBoxFor(m => m.Count)</div>
+    <button class="submit"><div class="push">Push Me!</div></button>
+}
+<p><br />The number you entered will follow you at the bottom of the page when you visit other parts of the site.</p>

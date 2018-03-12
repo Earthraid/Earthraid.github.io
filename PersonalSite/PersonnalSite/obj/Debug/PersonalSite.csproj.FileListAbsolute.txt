@@ -1,3 +1,5 @@
+C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonalSite.csprojResolveAssemblyReference.cache
+C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonalSite.csproj.CoreCompileInputs.cache
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\ApplicationInsights.config
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\PersonnalSite.dll.config
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\PersonnalSite.dll
@@ -36,7 +38,5 @@ C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\Microsoft.AI.D
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\bin\Microsoft.AI.Web.xml
-C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonalSite.csprojResolveAssemblyReference.cache
-C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonalSite.csproj.CoreCompileInputs.cache
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonnalSite.dll
 C:\Users\jchristian\Desktop\mysite\PersonalSite\PersonnalSite\obj\Debug\PersonnalSite.pdb

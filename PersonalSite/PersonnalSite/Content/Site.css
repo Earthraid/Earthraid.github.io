@@ -61,12 +61,12 @@ hr{
     padding-top:2%;
 }
 .email{
-    color:blue;
+    color:black;
 }
 .links{
     display: inline-block;
     color:blue;
-    padding-right:1%;
+    padding-right:.5%;
 }
 .login_bar{
     padding-bottom:2%;
@@ -75,7 +75,25 @@ hr{
 .confirm_image{
     margin:auto;
 }
-.email{
-    padding-top:1%;
+
+.session_number{
+    margin-left: 5%;
+}
+.countName{
+    display:inline-block;
+    margin-right:1%;
+}
+.countBar{
+    display:inline-block;
+    margin-right:1%;
+}
+
+.submit{
+    color:white;
+    background-color:black;  
+}
+
+.submit:hover{
     color:black;
+    background-color:white;
 }

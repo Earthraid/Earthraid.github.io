@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Validation.Web.Models;
+using PersonnalSite.Models;
 
 namespace PersonnalSite.Controllers
 {
@@ -36,6 +37,7 @@ namespace PersonnalSite.Controllers
         {
             return View("Login");
         }
+
         // POST: User/Login  
         // Validate the model and redirect to login (if successful) or return the 
         // login view (if validation fails)
@@ -49,12 +51,27 @@ namespace PersonnalSite.Controllers
 
             return RedirectToAction("Login", "Home");
         }
+
         // GET: User/Confirmation
         // Return the confirmation view
         [HttpGet]
         public ActionResult Confirmation()
         {
             return View("Confirmation");
+        }
+
+        //
+        [HttpGet]
+        public ActionResult SessionXP()
+        {
+            return View("Session");
+        }
+
+        [HttpPost]
+        public ActionResult SessionXP(SessionModel num)
+        {
+            Session["count"] = num.Count;
+            return RedirectToAction("SessionXP");
         }
     }
     //[HttpGet]

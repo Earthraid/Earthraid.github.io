@@ -25,7 +25,7 @@
                     <li>@Html.ActionLink("Professonal Experience", "PriorExp", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Login", "Login", "Home")</li>
-                    <!--li>Html.ActionLink("Newsletter", "SignUp", "Home")</li-->
+                    <li>@Html.ActionLink("Session", "SessionXP", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -41,5 +41,10 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <div class="session_number">
+        Number enetered in Session: @Session["count"]
+    </div>
 </body>
+
 </html>
