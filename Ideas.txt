@@ -1,0 +1,7 @@
+Add ViewBag. for DropDown (what info?)
+
+Add Views that pull SQL?
+
+Temp Data - example in c-lecture Temp Data (index) -> not much value according to John
+
+Selenium - creates jobs for us because it's complex
