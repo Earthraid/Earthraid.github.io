@@ -5,9 +5,8 @@
 @model LoginViewModel
 <h2 class="top">@ViewBag.Title</h2>
 
-<hr />
 <!--Add instructions for login (pword length etc.)-->
-
+<hr />
 @using (Html.BeginForm("Login", "Home", FormMethod.Post))
 {
     <div class="email">
@@ -20,5 +19,5 @@
         <div class="login_bar">@Html.PasswordFor(m => m.Password)</div>
         @Html.ValidationMessageFor(m => m.Password)
     </div>
-    <button class="formSubmitButton">LOGIN</button>
+    <button class="btn btn-default">LOGIN</button>
 }

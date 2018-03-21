@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -10,17 +12,25 @@
 }
 
 .pool {
+
 }
-.jumbotron{
-  
+.jumbotron {
     background: url(DeadPool.jpeg) right;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
     background-size: 45%;
-    background-repeat:no-repeat;
-    background-color:white;
-    margin-top:3%;
-
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-top: 3%;
 }
 
+/* Test */
+
+.jumbotron:hover{
+    opacity: 1;
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.8);
+    transform: rotateX(0) translateZ(-60px) scale(0.90);
+}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -91,6 +101,7 @@ hr{
 .submit{
     color:white;
     background-color:black;  
+    border-radius:5px;
 }
 
 .submit:hover{
